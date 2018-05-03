@@ -1,7 +1,7 @@
 # Boilerplate for Microservice Admin in Java
 [![Build Status](https://travis-ci.org/javaboilerplates/micro-admin.svg?branch=master)](https://travis-ci.org/javaboilerplates/micro-admin)
 [![codecov](https://codecov.io/gh/javaboilerplates/micro-admin/branch/master/graph/badge.svg)](https://codecov.io/gh/javaboilerplates/micro-admin)
-
+[![](https://sonarcloud.io/api/project_badges/measure?project=net.aikaka.javaboilerplates%3Amicro-admin&metric=alert_status)](https://sonarcloud.io/dashboard?id=net.aikaka.javaboilerplates%3Amicro-admin)
 [![](https://sonarcloud.io/api/project_badges/measure?project=net.aikaka.javaboilerplates%3Amicro-admin&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=net.aikaka.javaboilerplates%3Amicro-admin)
 [![](https://images.microbadger.com/badges/image/javaboilerplates/micro-admin.svg)](https://microbadger.com/images/javaboilerplates/micro-admin)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/javaboilerplates/micro-admin/blob/master/LICENSE)
