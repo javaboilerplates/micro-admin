@@ -34,11 +34,21 @@ cache:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  - ./mvnw clean package -DskipTests=true
+  - ./mvnw package -DskipTests=true
   - bash script/Dockerbuild.sh
 
+before_deploy:
+  - ./mvnw javadoc:javadoc
+
 deploy:
-  provider: script
-  script: bash script/Dockerpush.sh
+  local-dir: target/site
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  fqdn: javaboilerplates-micro-admin.aikaka.net
   on:
     branch: master
+
+after_deploy:
+    - bash script/Dockerpush.sh
