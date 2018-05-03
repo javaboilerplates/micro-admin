@@ -4,7 +4,7 @@
 [![Quality](https://sonarcloud.io/api/project_badges/measure?project=net.aikaka.javaboilerplates%3Amicro-admin&metric=alert_status)](https://sonarcloud.io/dashboard?id=net.aikaka.javaboilerplates%3Amicro-admin)
 [![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=net.aikaka.javaboilerplates%3Amicro-admin&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=net.aikaka.javaboilerplates%3Amicro-admin)
 [![DockerImage](https://images.microbadger.com/badges/image/javaboilerplates/micro-admin.svg)](https://microbadger.com/images/javaboilerplates/micro-admin)
-[![JavaDoc](https://img.shields.io/badge/javadoc-API-blue.svg)](https://javaboilerplates-micro-admin.aikaka.net/)
+[![JavaDoc](https://img.shields.io/badge/javadoc-API-blue.svg)](https://javaboilerplates-micro-admin.aikaka.net/apidocs)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/javaboilerplates/micro-admin/blob/master/LICENSE)
 
 ## Features
